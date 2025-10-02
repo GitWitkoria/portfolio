@@ -17,15 +17,15 @@ Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe s
 
 Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
 Pytania, na które raport ma odpowiadać
-•	Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat?
-•	Które produkty, kategorie i regiony generują największy przychód i marżę?
-•	Którzy klienci są najważniejsi i jak kształtuje się ich rentowność?
-•	Jakie są trendy sprzedażowe i czy widzimy sezonowość?
+• Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat?
+• Które produkty, kategorie i regiony generują największy przychód i marżę?
+• Którzy klienci są najważniejsi i jak kształtuje się ich rentowność?
+• Jakie są trendy sprzedażowe i czy widzimy sezonowość?
 
 <h3>Kluczowe KPI i wizualizacje</h3>
 
-•	KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
-•	Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
+• KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
+• Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
 
 
 
@@ -49,30 +49,30 @@ Zakładka 1: Dashboard menedżerski (dashboard) <br>
 
 👉 Cel: szybki podgląd bieżących wyników <br>
 
-•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).  <br>
-•	Wykres liniowy: trend sprzedaży. <br>
-•	Top 5 produktów wg przychodu (kolumnowy). <br>
-•	Mapa sprzedaży po regionach (kontynent/kraj/stan). <br>
-•	Informacja o obecnym wyniku sperzedaży do 2014 roku. <br>
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
+• Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).  <br>
+• Wykres liniowy: trend sprzedaży. <br>
+• Top 5 produktów wg przychodu (kolumnowy). <br>
+• Mapa sprzedaży po regionach (kontynent/kraj/stan). <br>
+• Informacja o obecnym wyniku sperzedaży do 2014 roku. <br>
+• Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 Zakładka 2: Analiza sprzedaży (sales insights) <br>
 
 👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów  <br>
 
-•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.  <br>
-•	Heatmap (region × produkt = sprzedaż).  <br>
-•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.  <br>
-•	Segmentacja klientów: nowi vs powracający. <br>
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
+• Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.  <br>
+• Heatmap (region × produkt = sprzedaż).  <br>
+• Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.  <br>
+• Segmentacja klientów: nowi vs powracający. <br>
+• Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 Zakładka 3: Trendy i prognoza (time analysis) <br>
 
 👉 Cel: spojrzenie długoterminowe i przewidywania <br>
 
-•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.  <br>
-•	Sezonowość: porównanie sprzedaży rok do roku. <br>
-•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
+• Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.  <br>
+• Sezonowość: porównanie sprzedaży rok do roku. <br>
+• Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 <h3>Krok 4 – Wnioski na podstawie raprotu</h3>
 
