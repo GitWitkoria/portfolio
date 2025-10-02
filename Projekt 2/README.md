@@ -15,7 +15,7 @@ Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe s
 
 <h3>Odbiorca raportu</h3>
 
-Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
+Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów). <br>
 Pytania, na które raport ma odpowiadać: <br>
 • Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat? <br>
 • Które produkty, kategorie i regiony generują największy przychód i marżę? <br>
