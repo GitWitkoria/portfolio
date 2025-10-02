@@ -5,7 +5,7 @@
 Raport zawiera 3 zakładki znajdujące się w górnym menu: Dashboard (Pulpit nawigacyjny), Sales insights (Analiza sprzedaży), Time Analysis (Tredny i prognoza). 
 
 
-**Jak powstał raport?**
+<h3>Jak powstał raport?</h3>
 
 W tym raporcie mój asystent AI wcielił się w rolę klienta menedżera (średniego szczebla w firmie handlowej) i przedstawił mi swoje oczekiwania wobec raportu w Power BI przygotowanego na bazie hurtowni **AdventureWorksDW2019**. Raport miał być użyteczny, intuicyjny i przypominać mini-aplikację (max 3 zakładki). 
 Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe strony - szczegóły. Całość miała sprawiać wrażenia mini-aplikacji po której mógłby się poruszać klient korzystając, m.in. z:
@@ -13,7 +13,7 @@ Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe s
 - wykresu z zastosowaniem hierarchii i drill down dla różnych poziomów szczegółowości,
 - przycisków, które zmieniają wykres na stronie.
 
-**Odbiorca raportu**
+<h3>Odbiorca raportu</h3>
 
 Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
 Pytania, na które raport ma odpowiadać
@@ -22,19 +22,19 @@ Pytania, na które raport ma odpowiadać
 •	Którzy klienci są najważniejsi i jak kształtuje się ich rentowność?
 •	Jakie są trendy sprzedażowe i czy widzimy sezonowość?
 
-**Kluczowe KPI i wizualizacje**
+<h3>Kluczowe KPI i wizualizacje</h3>
 
 •	KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
 •	Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
 
 
 
-**Krok 1 – Przygotowanie szablonu tła raportu**
+<h3>Krok 1 – Przygotowanie szablonu tła raportu</h3>
 
 Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 
 
-**Krok 2 – Przygotowanie źródła raportu oraz nadanie relacji pomiędzy widokami**
+<h3>Krok 2 – Przygotowanie źródła raportu oraz nadanie relacji pomiędzy widokami</h3>
 
 1. **Pobieram dane** do Power BI za pomocą funkcji „Pobierz dane” -> SQL Server i łączę się z hurtownią AdventureWorksDW2019.
 2. W MS SQL Server tworzę odpowiednie widoki, aby nie musieć wykonywać odatkowych operacjiw Power Query. Utworzyłam widok faktów vw_FactInternetSales_Denorm oraz 4 widoki wymiarów: vw_DimProduct, vw_DimCustomer, vw_DimSalesTerritory, vwDimDate i jedną tabelę przechowującą wszystkie miary.
@@ -43,7 +43,7 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 ![Zastosowany schemat gwiazdy](Images/StarSchema.png)
    
 
-**Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów**
+<h3>Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów</h3>
 
 Zakładka 1: Dashboard menedżerski (dashboard)
 👉 Cel: szybki podgląd bieżących wyników
@@ -69,7 +69,7 @@ Zakładka 3: Trendy i prognoza (time analysis)
 •	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc.
 •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
 
-**Krok 4 – Wnioski na podstawie raprotu**
+<h3>Krok 4 – Wnioski na podstawie raprotu</h3>
 
 👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów:
 
@@ -80,7 +80,7 @@ Zakładka 3: Trendy i prognoza (time analysis)
 
 
 
-**WIZUALIZACJA RAPORTU**
+<h3>WIZUALIZACJA RAPORTU</h3>
 
 1. Strona pierwsza raportu
    ![Strona pierwsza raportu](Images/Dash1.png)
