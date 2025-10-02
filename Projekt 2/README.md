@@ -46,37 +46,37 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 <h3>Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów</h3>
 
 Zakładka 1: Dashboard menedżerski (dashboard)
-👉 Cel: szybki podgląd bieżących wyników
-•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).
-•	Wykres liniowy: trend sprzedaży.
-•	Top 5 produktów wg przychodu (kolumnowy).
-•	Mapa sprzedaży po regionach (kontynent/kraj/stan).
-•	Informacja o obecnym wyniku sperzedaży do 2014 roku.
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
+👉 Cel: szybki podgląd bieżących wyników &nbsp;
+•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia). &nbsp;
+•	Wykres liniowy: trend sprzedaży. &nbsp;
+•	Top 5 produktów wg przychodu (kolumnowy). &nbsp;
+•	Mapa sprzedaży po regionach (kontynent/kraj/stan). &nbsp;
+•	Informacja o obecnym wyniku sperzedaży do 2014 roku. &nbsp;
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. &nbsp;
 
 Zakładka 2: Analiza sprzedaży (sales insights)
-👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów
-•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.
-•	Heatmap (region × produkt = sprzedaż).
-•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.
-•	Segmentacja klientów: nowi vs powracający.
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
+👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów &nbsp;
+•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata. &nbsp;
+•	Heatmap (region × produkt = sprzedaż). &nbsp;
+•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie. &nbsp;
+•	Segmentacja klientów: nowi vs powracający. &nbsp;
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. &nbsp;
 
 Zakładka 3: Trendy i prognoza (time analysis)
-👉 Cel: spojrzenie długoterminowe i przewidywania
-•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.
-•	Sezonowość: porównanie sprzedaży rok do roku.
-•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc.
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
+👉 Cel: spojrzenie długoterminowe i przewidywania &nbsp;
+•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata. &nbsp;
+•	Sezonowość: porównanie sprzedaży rok do roku. &nbsp;
+•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. &nbsp;
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. &nbsp;
 
 <h3>Krok 4 – Wnioski na podstawie raprotu</h3>
 
 👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów:
 
-📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy.
-🗓️ W większości analizowanych lat czerwiec wyróżniał się jako miesiąc o najwyższej sprzedaży.
-🚴 Rowery to kategoria dominująca pod względem wartości sprzedaży – szczególnie w Australii oraz w regionie Southwest.
-👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców.
+&nbsp;📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy.
+&nbsp;🗓️ W większości analizowanych lat czerwiec wyróżniał się jako miesiąc o najwyższej sprzedaży.
+&nbsp;🚴 Rowery to kategoria dominująca pod względem wartości sprzedaży – szczególnie w Australii oraz w regionie Southwest.
+&nbsp;👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców.
 
 
 
