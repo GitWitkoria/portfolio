@@ -40,7 +40,7 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 2. W MS SQL Server tworzę odpowiednie widoki, aby nie musieć wykonywać odatkowych operacjiw Power Query. Utworzyłam widok faktów vw_FactInternetSales_Denorm oraz 4 widoki wymiarów: vw_DimProduct, vw_DimCustomer, vw_DimSalesTerritory, vwDimDate i jedną tabelę przechowującą wszystkie miary.
 3. Nadaję relacje zgodnie ze schematem gwiazdy.
 
-![Zastosowany schemat gwiazdy](images/Star Schema.png)
+![Zastosowany schemat gwiazdy](Images/StarSchema.png)
    
 
 **Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów**
@@ -82,10 +82,15 @@ Zakładka 3: Trendy i prognoza (time analysis)
 
 **Wizualizacja RAPORTU**
 
-1. ![Strona pierwsza raportu](images/Dash1.png)
-2. ![Strona druga raportu](images/Dash2.png)
-3. ![Widok strony po przejściu drill through dla danego klienta](images/Dash3.png)
-4. ![Strona trzecia raportu](images/Dash4.png)
-5. ![Strona trzecia raportu z wysuniętym panelem filtrów](images/Dash5.png)
+1. Strona pierwsza raportu
+   ![Strona pierwsza raportu](Images/Dash1.png)
+3. Strona druga raportu
+   ![Strona druga raportu](Images/Dash2.png)
+4. Widok strony po przejściu drill through dla danego klienta
+   ![Widok strony po przejściu drill through](Images/Dash3.png)
+5. Strona trzecia raportu
+   ![Strona trzecia raportu](Images/Dash4.png)
+6. Strona trzecia raportu z wysuniętym panelem filtrów
+   ![Strona trzecia raportu z filtrem](Images/Dash5.png)
    
    
