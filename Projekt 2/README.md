@@ -16,15 +16,15 @@ Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe s
 <h3>Odbiorca raportu</h3>
 
 Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
-Pytania, na które raport ma odpowiadać
-• Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat?
-• Które produkty, kategorie i regiony generują największy przychód i marżę?
-• Którzy klienci są najważniejsi i jak kształtuje się ich rentowność?
-• Jakie są trendy sprzedażowe i czy widzimy sezonowość?
+Pytania, na które raport ma odpowiadać: <br>
+• Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat? <br>
+• Które produkty, kategorie i regiony generują największy przychód i marżę? <br>
+• Którzy klienci są najważniejsi i jak kształtuje się ich rentowność? <br>
+• Jakie są trendy sprzedażowe i czy widzimy sezonowość? <br>
 
 <h3>Kluczowe KPI i wizualizacje</h3>
 
-• KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
+• KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia. <br>
 • Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
 
 
