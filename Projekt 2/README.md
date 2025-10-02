@@ -45,37 +45,37 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 
 <h3>Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów</h3>
 
-Zakładka 1: Dashboard menedżerski (dashboard)
+Zakładka 1: Dashboard menedżerski (dashboard) <br>
 👉 Cel: szybki podgląd bieżących wyników <br>
-•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia). 
-•	Wykres liniowy: trend sprzedaży. 
-•	Top 5 produktów wg przychodu (kolumnowy). 
-•	Mapa sprzedaży po regionach (kontynent/kraj/stan). 
-•	Informacja o obecnym wyniku sperzedaży do 2014 roku. 
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. 
+•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).  <br>
+•	Wykres liniowy: trend sprzedaży. <br>
+•	Top 5 produktów wg przychodu (kolumnowy). <br>
+•	Mapa sprzedaży po regionach (kontynent/kraj/stan). <br>
+•	Informacja o obecnym wyniku sperzedaży do 2014 roku. <br>
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
-Zakładka 2: Analiza sprzedaży (sales insights)
-👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów 
-•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata. 
-•	Heatmap (region × produkt = sprzedaż). 
-•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie. 
-•	Segmentacja klientów: nowi vs powracający. 
-•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. 
+Zakładka 2: Analiza sprzedaży (sales insights) <br>
+👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów  <br>
+•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.  <br>
+•	Heatmap (region × produkt = sprzedaż).  <br>
+•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.  <br>
+•	Segmentacja klientów: nowi vs powracający. <br>
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
-Zakładka 3: Trendy i prognoza (time analysis)
-👉 Cel: spojrzenie długoterminowe i przewidywania 
-•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata. 
-•	Sezonowość: porównanie sprzedaży rok do roku. 
-•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. 
+Zakładka 3: Trendy i prognoza (time analysis) <br>
+👉 Cel: spojrzenie długoterminowe i przewidywania <br>
+•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.  <br>
+•	Sezonowość: porównanie sprzedaży rok do roku. <br>
+•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 <h3>Krok 4 – Wnioski na podstawie raprotu</h3>
 
-👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów:
+👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów: 
 
-📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy.
-🗓️ W większości analizowanych lat czerwiec wyróżniał się jako miesiąc o najwyższej sprzedaży.
-🚴 Rowery to kategoria dominująca pod względem wartości sprzedaży – szczególnie w Australii oraz w regionie Southwest.
-👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców.
+📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy. <br>
+🗓️ W większości analizowanych lat czerwiec wyróżniał się jako miesiąc o najwyższej sprzedaży. <br>
+🚴 Rowery to kategoria dominująca pod względem wartości sprzedaży – szczególnie w Australii oraz w regionie Southwest. <br>
+👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców. <br>
 
 
 
