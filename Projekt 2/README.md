@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Raport obecnych wyników firmy</h2>
 
-<h1>Co zawiera raport?</h1>
+<h3>Co zawiera raport?</h3>
 
 Raport zawiera 3 zakładki znajdujące się w górnym menu: Dashboard (Pulpit nawigacyjny), Sales insights (Analiza sprzedaży), Time Analysis (Tredny i prognoza). 
 
