@@ -1,10 +1,12 @@
 <h2 style="text-align: center;">Raport obecnych wyników firmy</h2>
 
 **Co zawiera raport?**
+
 Raport zawiera 3 zakładki znajdujące się w górnym menu: Dashboard (Pulpit nawigacyjny), Sales insights (Analiza sprzedaży), Time Analysis (Tredny i prognoza). 
 
 
 **Jak powstał raport?**
+
 W tym raporcie mój asystent AI wcielił się w rolę klienta menedżera (średniego szczebla w firmie handlowej) i przedstawił mi swoje oczekiwania wobec raportu w Power BI przygotowanego na bazie hurtowni **AdventureWorksDW2019**. Raport miał być użyteczny, intuicyjny i przypominać mini-aplikację (max 3 zakładki). 
 Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe strony - szczegóły. Całość miała sprawiać wrażenia mini-aplikacji po której mógłby się poruszać klient korzystając, m.in. z:
 - wykresu z drill through prowadzącym do faktur,
@@ -12,6 +14,7 @@ Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe s
 - przycisków, które zmieniają wykres na stronie.
 
 **Odbiorca raportu**
+
 Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
 Pytania, na które raport ma odpowiadać
 •	Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat?
@@ -20,6 +23,7 @@ Pytania, na które raport ma odpowiadać
 •	Jakie są trendy sprzedażowe i czy widzimy sezonowość?
 
 **Kluczowe KPI i wizualizacje**
+
 •	KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
 •	Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
 
@@ -66,6 +70,7 @@ Zakładka 3: Trendy i prognoza (time analysis)
 •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
 
 **Krok 4 – Wnioski na podstawie raprotu**
+
 👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów:
 
 📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy.
