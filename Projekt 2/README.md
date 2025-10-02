@@ -1,90 +1,86 @@
-<h2 style="text-align: center;">Raport porównania sprzedaży w różnych krajach</h2>
+<h2 style="text-align: center;">Raport obecnych wyników firmy</h2>
 
 **Co zawiera raport?**
+Raport zawiera 3 zakładki znajdujące się w górnym menu: Dashboard (Pulpit nawigacyjny), Sales insights (Analiza sprzedaży), Time Analysis (Tredny i prognoza). 
 
-KPI: całkowity przychód, całkowity przychód wg kraju, liczba transakcji, średnia wartość zamówienia.
-
-Wizualizacje: mapa z podziałem na kraje, wykres słupkowy „Top 5 miast” w każdym kraju, trend sprzedaży w czasie.
-
-Dodatkowe efekty: **mapa interaktywna** + **dynamiczne filtrowanie** po kraju.
 
 **Jak powstał raport?**
+W tym raporcie mój asystent AI wcielił się w rolę klienta menedżera (średniego szczebla w firmie handlowej) i przedstawił mi swoje oczekiwania wobec raportu w Power BI przygotowanego na bazie hurtowni **AdventureWorksDW2019**. Raport miał być użyteczny, intuicyjny i przypominać mini-aplikację (max 3 zakładki). 
+Zależało mi, aby pierwsza strona zawierała kluczowe wskaźniki a pozostałe strony - szczegóły. Całość miała sprawiać wrażenia mini-aplikacji po której mógłby się poruszać klient korzystając, m.in. z:
+- wykresu z drill through prowadzącym do faktur,
+- wykresu z zastosowaniem hierarchii i drill down dla różnych poziomów szczegółowości,
+- przycisków, które zmieniają wykres na stronie.
 
-**Krok 1 – Połączenie i przekształcanie danych**
+**Odbiorca raportu**
+Raport jest przeznaczony dla menedżerów sprzedaży i marketingu. Potrzebują oni szybkiego podglądu bieżących wyników firmy oraz możliwości pogłębienia analizy (drill-through do szczegółów).
+Pytania, na które raport ma odpowiadać
+•	Jak wyglądają aktualne wyniki sprzedaży w poprzednich lat?
+•	Które produkty, kategorie i regiony generują największy przychód i marżę?
+•	Którzy klienci są najważniejsi i jak kształtuje się ich rentowność?
+•	Jakie są trendy sprzedażowe i czy widzimy sezonowość?
 
-1. **Pobieram dane** do Power BI za pomocą funkcji „Pobierz dane” -> Skoroszyt programu Excel i wybieram plik **xlsx** ZabawkiTabele z 4 arkuszami: Produkty, Sprzedaż, Kalendarz, RelacjeKraje.
-2. Ponieważ arkusze jak i tabele w Excelu nazywały się tak samo Power BI automatycznie dodał do nich cyfry, aby je lepiej rozróżnić. Usuwam dodatkowe cyfry. Zmiana np. z Kalendarz1 na Kalendarz.
-3. **Pobieram dane z folderu** SprzedażZagraniczna w formacie **csv**. Ponieważ mamy 4 pliki z różnymi wielkościami rozszerzenia (.cvs, .CSV, .Csv) ujednolicamy je na jeden spójny format .csv za pomocą Przekształć -> małe litery. PowerBI jest wrażliwy na wielkość liter, dodatkowo plik z innym rozszerzeniem może powodować błędy przy łączeniu.
-4. Używam polecenia **„Połącz pliki”**, aby połączyć 4 pliki w jedną tabelę.
-5. Zmieniam typ danych w kolumnie Kod pocztowy w tabeli SprzedażZagraniczna z typu liczbowego na typ tekstowy, ponieważ w niektórych krajach kod pocztowy nie składa się z samych cyfr.
-6. Dane z tabeli SprzedażZagraniczna **dołączam** do tabeli Sprzedaż używając polecenia „**Dołącz zapytania”**. Tabele muszą mieć te same nazwy kolumn włącznie z wielkością liter. W tabeli Sprzedaż brakuje kolumny Kraj, więc przed dołączeniem dodałam nową kolumnę Kraj typu tekstowego z wartościami „Polska”.
+**Kluczowe KPI i wizualizacje**
+•	KPI:  Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia.
+•	Wizualizacje: wykres liniowy (trendy), mapa (regiony sprzedaży), heatmap (produkty), tabelki z możliwością drill-through do faktur/klientów. 
 
-👉 Efekt: jedna tabela o nazwie np. **SprzedażZagraniczna** ze wszystkimi krajami.
 
-1. Ponieważ dane z tabeli SprzedażZagraniczna mamy już w tabeli Sprzedaż odznaczam opcję „Włącz ładowanie”, aby nie zaczytywać tych danych do Power BI.
-2. Aby łatwiej było mi się poruszać w Power Query tworzę grupę „Sprzedażowe”, gdzie umieszczam tabele Sprzedaż i SprzedażZagraniczna.
-3. Tworzę nową tabelę Państwa za pomocą funkcji „Wprowadź dane”, gdzie przechowuję nazwę kraju oraz adres url do obrazka flagi, które wykorzystam do slicera.
 
-**Krok 2 – Modelowanie danych w Power BI Desktop**
+**Krok 1 – Przygotowanie szablonu tła raportu**
 
-1. Tworzę relacje i ukrywam kolumny z ID.
-2. Usuwam automatyczne sumowanie dla takich kolumn jak np. Rok, NrMiesiąca.
-3. W narzędziach kolumn dla tabeli Kalendarz i kolumny NazwaMiesiąca ustawiam sortowanie według kolumny NrMiesiąca.
-4. Zmieniam format daty we wszystkich tabelach na yyyy-mm-dd.
-5. Tworzę nową pustą tabelę #Miary do przechowywania miar.
+Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 
-**Krok 3 – Proste miary z emoji (DAX)**
 
-1. Utworzenie tabeli #Miary do przetrzymywania miar.
-2. Całkowity Przychód = FORMAT (CALCULATE(
+**Krok 2 – Przygotowanie źródła raportu oraz nadanie relacji pomiędzy widokami**
 
-&nbsp;   SUM ( 'Sprzedaż'\[Przychód\]),
+1. **Pobieram dane** do Power BI za pomocą funkcji „Pobierz dane” -> SQL Server i łączę się z hurtownią AdventureWorksDW2019.
+2. W MS SQL Server tworzę odpowiednie widoki, aby nie musieć wykonywać odatkowych operacjiw Power Query. Utworzyłam widok faktów vw_FactInternetSales_Denorm oraz 4 widoki wymiarów: vw_DimProduct, vw_DimCustomer, vw_DimSalesTerritory, vwDimDate i jedną tabelę przechowującą wszystkie miary.
+3. Nadaję relacje zgodnie ze schematem gwiazdy.
 
-&nbsp;   ALL('Sprzedaż'))
+![Zastosowany schemat gwiazdy](images/Star Schema.png)
+   
 
-&nbsp;   , "0,,.00 mln zł" )
+**Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów**
 
-1. Całkowity Przychód wg Kraju = "💰 " & FORMAT (SUM ( 'Sprzedaż'\[Przychód\]), "0,,.00 mln zł" )
-2. Liczba Zamówień = "📦 " & COUNTROWS ( 'Sprzedaż' )
+Zakładka 1: Dashboard menedżerski (dashboard)
+👉 Cel: szybki podgląd bieżących wyników
+•	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).
+•	Wykres liniowy: trend sprzedaży.
+•	Top 5 produktów wg przychodu (kolumnowy).
+•	Mapa sprzedaży po regionach (kontynent/kraj/stan).
+•	Informacja o obecnym wyniku sperzedaży do 2014 roku.
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
 
-Średnia Wartość Zamówienia = "🛒 " & FORMAT (
+Zakładka 2: Analiza sprzedaży (sales insights)
+👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów
+•	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.
+•	Heatmap (region × produkt = sprzedaż).
+•	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.
+•	Segmentacja klientów: nowi vs powracający.
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
 
-&nbsp;   DIVIDE ( SUM ( 'Sprzedaż'\[Przychód\]), COUNTROWS ( 'Sprzedaż' ) )
+Zakładka 3: Trendy i prognoza (time analysis)
+👉 Cel: spojrzenie długoterminowe i przewidywania
+•	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.
+•	Sezonowość: porównanie sprzedaży rok do roku.
+•	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc.
+•	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu.
 
-&nbsp;   , "0.00")
+**Krok 4 – Wnioski na podstawie raprotu**
+👉 Na podstawie przygotowanego raportu w Power BI można zauważyć kilka kluczowych trendów:
 
-1. Średnia Wartość Zamówienia = "🛒 " & FORMAT (
+📈 Rok 2013 był najlepszym okresem sprzedażowym dla firmy.
+🗓️ W większości analizowanych lat czerwiec wyróżniał się jako miesiąc o najwyższej sprzedaży.
+🚴 Rowery to kategoria dominująca pod względem wartości sprzedaży – szczególnie w Australii oraz w regionie Southwest.
+👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców.
 
-&nbsp;   DIVIDE ( SUM ( 'Sprzedaż'\[Przychód\]), COUNTROWS ( 'Sprzedaż' ) )
 
-&nbsp;   , "0.00")
 
-**Krok 4 – Dodanie wizualizacji na stronie startowej**
+**Wizualizacja RAPORTU**
 
-1. Mapa → sprzedaż wg Kraj (rozmiar bąbla = Przychód).
-2. KPI Card → Całkowity Przychód, wg Kraju, Całkowity Przychód Liczba Zamówień, Średnia wartość.
-3. Wykres słupkowy → Top 5 miast wg przychodu.
-    1. Oś: Miasto, Wartość: Całkowity Przychód.
-    2. Filtr: „Top N = 5”.
-4. Wykres liniowy → Trend sprzedaży (Data na osi, Przychód jako wartość).
-
-**Krok 5 – Dodanie slicerów i logo z danymi**
-
-1. Dodaję fragmentator kategorii produktów z opcją „Zaznacz wszystko”.
-2. Pobieram nowy fragmentator „ChicletSlicer” i buduję filtr z flagami Państw.4
-3. Dodanie logo i danych osobowych oraz linku, który przekierowuje do profilu na linkedin.
-
-**Krok 6 – Dodanie tooltip z wykresem**
-
-1. Utworzenie nowej strony raportu Tooltip_Top3_Produlty
-2. Utworzenie wykresu z Top 3 produkty i zezwolenie na użycie strony jako etykiety narzędzia
-3. Powrót do raportu głównego i dodanie tooltipa do wykresu słupkowego w Etykiety -> Typ = Strona raportu, Strona = Tooltip_Top3_Produkty.
-
-**ETAPY POWSTAWANIA RAPORTU**
-
-1. ![Wersja pierwsza](images/Raport1.png)
-2. ![Wersja druga](images/Raport2.png)
-3. ![Wersja trzecia](images/raport3.png)
-4. ![Wersja trzecia](images/Raport4.png)
+1. ![Strona pierwsza raportu](images/Dash1.png)
+2. ![Strona druga raportu](images/Dash2.png)
+3. ![Widok strony po przejściu drill through dla danego klienta](images/Dash3.png)
+4. ![Strona trzecia raportu](images/Dash4.png)
+5. ![Strona trzecia raportu z wysuniętym panelem filtrów](images/Dash5.png)
    
    
