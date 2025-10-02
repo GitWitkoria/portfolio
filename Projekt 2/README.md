@@ -46,7 +46,9 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 <h3>Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów</h3>
 
 Zakładka 1: Dashboard menedżerski (dashboard) <br>
+
 👉 Cel: szybki podgląd bieżących wyników <br>
+
 •	Kafle KPI (Zysk brutto, % Marży, Ilość zamówień, Średnia wartość zamówienia).  <br>
 •	Wykres liniowy: trend sprzedaży. <br>
 •	Top 5 produktów wg przychodu (kolumnowy). <br>
@@ -55,7 +57,9 @@ Zakładka 1: Dashboard menedżerski (dashboard) <br>
 •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 Zakładka 2: Analiza sprzedaży (sales insights) <br>
+
 👉 Cel: pogłębiona analiza sprzedaży wg produktów i klientów  <br>
+
 •	Macierz (Kategoria produktu → Produkt → Kwota sprzedaży, Zysk, Marża) w podziela na lata.  <br>
 •	Heatmap (region × produkt = sprzedaż).  <br>
 •	Wykres słupkowy: Top 10 klientów wg przychodu z możliwością drill-through do faktur, KPI z wartością sprzedaży, zyskiem brutto, ilością zamówień i trendem sprzedaży w czasie.  <br>
@@ -63,7 +67,9 @@ Zakładka 2: Analiza sprzedaży (sales insights) <br>
 •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
 
 Zakładka 3: Trendy i prognoza (time analysis) <br>
+
 👉 Cel: spojrzenie długoterminowe i przewidywania <br>
+
 •	Wykres liniowy: sprzedaż miesięczna z trendline i prognozą na kolejne 3 lata.  <br>
 •	Sezonowość: porównanie sprzedaży rok do roku. <br>
 •	Wykres key influencers z analizą całkowitej sprzedaży w opraciu o region, kategorię produktu, płeć konsumenta, rok kalendarzowy, miesiąc. •	Wysuwane filtry za pomocą toggle switch: rok, region, kategoria produktu. <br>
@@ -78,7 +84,7 @@ Zakładka 3: Trendy i prognoza (time analysis) <br>
 👥 Analiza klientów wskazuje, że w badanym okresie pojawia się więcej nowych klientów niż powracających, co sugeruje skuteczność w pozyskiwaniu nowych odbiorców. <br>
 
 
-
+<br> <br> 
 <h3>WIZUALIZACJA RAPORTU</h3>
 
 1. Strona pierwsza raportu
