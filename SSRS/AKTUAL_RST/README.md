@@ -33,7 +33,7 @@ Na GitHub zostały umieszczone wyłącznie zrzuty ekranu z pełną anonimizacją
 1. Strona główna raportu
   ![Strona główna raportu](images/AKTUAL_RST_1.jpg)
 2. Szczegóły zgłoszenia
-   ![Szczegóły zgłoszenia](images/AKTUAL_RST_2.png)
+  ![Szczegóły zgłoszenia](images/AKTUAL_RST_2.png)
 3. Historia obiektu
-   ![Historia obiektu](images/AKTUAL_RST_3.png)
+  ![Historia obiektu](images/AKTUAL_RST_3.png)
 
