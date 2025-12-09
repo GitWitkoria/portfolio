@@ -88,7 +88,7 @@ Zakładka 3: Trendy i prognoza (time analysis) <br>
 <h3>WIZUALIZACJA RAPORTU</h3>
 
 1. Strona pierwsza raportu
-   ![Strona pierwsza raportu](Images/Dash1.png)
+   ![Strona pierwsza raportu](Projekt 2/Images/Dash1.png)
 2. Strona druga raportu
    ![Strona druga raportu](Images/Dash2.png)
 3. Widok strony po przejściu drill through dla danego klienta
