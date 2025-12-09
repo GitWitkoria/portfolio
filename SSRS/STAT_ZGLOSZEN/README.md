@@ -37,8 +37,8 @@ Na GitHub umieszczono wyłącznie zrzuty ekranu z pełną anonimizacją, bez pli
 
 <h3>Wizualizacja raportu</h3>
 
-![Strona główna raportu](images/STAT_ZGLOSZEN_1.jpg)
-![Strona główna raportu](images/STAT_ZGLOSZEN_2.jpg)
-![Strona główna raportu](images/STAT_ZGLOSZEN_3.jpg)
+![Strona główna raportu](images/STAT_ZGLOSZEN_1.png)
+![Strona główna raportu](images/STAT_ZGLOSZEN_2.png)
+![Strona główna raportu](images/STAT_ZGLOSZEN_3.png)
 
 
