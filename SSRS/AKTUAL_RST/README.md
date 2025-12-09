@@ -26,7 +26,10 @@ o	wykres liczby zleceń w podziale na typy.
 Na GitHub zostały umieszczone wyłącznie zrzuty ekranu z pełną anonimizacją danych, bez oryginalnych plików .rdl z uwagi na wrażliwe dane.
 
 **Wizualizacja raportu**
-1. ![Strona główna raportu](images/AKTUAL_RST_1.jpg)
-2. ![Szczegóły zgłoszenia](images/AKTUAL_RST_2.png)
-3. ![Historia obiektu](images/AKTUAL_RST_3.png)
+1. Strona główna raportu
+  ![Strona główna raportu](images/AKTUAL_RST_1.jpg)
+2. Szczegóły zgłoszenia
+   ![Szczegóły zgłoszenia](images/AKTUAL_RST_2.png)
+3. Historia obiektu
+   ![Historia obiektu](images/AKTUAL_RST_3.png)
 
