@@ -12,6 +12,7 @@ Raport oparty jest na wcześniej przygotowanych widokach w SSMS z systemu testow
 • tabelę wykonanych prac,<br>
 • listę wydanych materiałów,<br>
 • zaplanowane czynności.<br>
+<br>
 **Kod obiektu** – link przechodzący do raportu z historią obiektu, zawierającego:<br>
 • tabelę wszystkich przeszłych zleceń,<br>
 • wykres liczby zleceń w podziale na miesiące,<br>
