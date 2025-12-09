@@ -40,7 +40,7 @@ Szablon przygotowałam za pomocą narzędzi graficznych m.in. Figma i GIMP.
 2. W MS SQL Server tworzę odpowiednie widoki, aby nie musieć wykonywać odatkowych operacjiw Power Query. Utworzyłam widok faktów vw_FactInternetSales_Denorm oraz 4 widoki wymiarów: vw_DimProduct, vw_DimCustomer, vw_DimSalesTerritory, vwDimDate i jedną tabelę przechowującą wszystkie miary.
 3. Nadaję relacje zgodnie ze schematem gwiazdy.
 
-![Zastosowany schemat gwiazdy](Images/StarSchema.png)
+![Zastosowany schemat gwiazdy](images/StarSchema.png)
    
 
 <h3>Krok 3 – Utworzenie stron raportu z wysuwanym panelem filtrów</h3>
