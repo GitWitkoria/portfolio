@@ -1,20 +1,22 @@
 <h2 style="text-align: center;">Lista aktualnych zgłoszeń</h2>
 
 
-**Opis:**
-Raport prezentuje zestawienie wszystkich aktualnych zgłoszeń wraz z możliwością przechodzenia do szczegółowych danych. Umożliwia filtrowanie wyników za pomocą parametru Siedziba z obsługą multi-select oraz funkcją „Select All”.
+<h3>Opis</h3>
+Raport prezentuje zestawienie wszystkich aktualnych zgłoszeń wraz z możliwością przechodzenia do szczegółowych danych. Umożliwia filtrowanie wyników za pomocą parametru Siedziba z obsługą multi-select oraz funkcją „Select All”.<br>
 Raport oparty jest na wcześniej przygotowanych widokach w SSMS z systemu testowego, które agregowały dane i upraszczały logikę raportu.
+<br><br>
 
-**Nawigacja między raportami (drill-through)**
-•	Numer zgłoszenia – link prowadzący do szczegółowego widoku zgłoszenia, zawierającego:
-o	tabelę wykonanych prac,
-o	listę wydanych materiałów,
-o	zaplanowane czynności.
-•	Kod obiektu – link przechodzący do raportu z historią obiektu, zawierającego:
-o	tabelę wszystkich przeszłych zleceń,
-o	wykres liczby zleceń w podziale na miesiące,
-o	wykres liczby zleceń w podziale na typy.
-**Funkcjonalności raportowe**
+<h3>Nawigacja między raportami (drill-through)</h3>
+**Numer zgłoszenia** – link prowadzący do szczegółowego widoku zgłoszenia, zawierającego:
+• tabelę wykonanych prac,
+• listę wydanych materiałów,
+• zaplanowane czynności.
+**Kod obiektu** – link przechodzący do raportu z historią obiektu, zawierającego:
+• tabelę wszystkich przeszłych zleceń,
+• wykres liczby zleceń w podziale na miesiące,
+• wykres liczby zleceń w podziale na typy.
+
+<h3>Funkcjonalności raportowe</h3>
 •	Sortowanie wyników po każdej kolumnie
 •	Dynamiczne filtrowanie po siedzibach
 •	Przejrzysty układ tabelaryczny (tablix)
@@ -22,10 +24,10 @@ o	wykres liczby zleceń w podziale na typy.
 •	Pełna obsługa eksportu do Excel (z zachowaniem tabel i struktury danych)
 •	Raport pełnił rolę narzędzia operacyjnego do bieżącej kontroli zgłoszeń i szybkiej nawigacji po historii obiektów.
 
-**Zdalna publikacja**
+<h3>Zdalna publikacja</h3>
 Na GitHub zostały umieszczone wyłącznie zrzuty ekranu z pełną anonimizacją danych, bez oryginalnych plików .rdl z uwagi na wrażliwe dane.
 
-**Wizualizacja raportu**
+<h3>Wizualizacja raportu</h3>
 1. Strona główna raportu
   ![Strona główna raportu](images/AKTUAL_RST_1.jpg)
 2. Szczegóły zgłoszenia
