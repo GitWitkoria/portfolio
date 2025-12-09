@@ -7,22 +7,23 @@ Raport oparty jest na wcześniej przygotowanych widokach w SSMS z systemu testow
 <br><br>
 
 <h3>Nawigacja między raportami (drill-through)</h3>
-**Numer zgłoszenia** – link prowadzący do szczegółowego widoku zgłoszenia, zawierającego:
-• tabelę wykonanych prac,
-• listę wydanych materiałów,
-• zaplanowane czynności.
-**Kod obiektu** – link przechodzący do raportu z historią obiektu, zawierającego:
-• tabelę wszystkich przeszłych zleceń,
-• wykres liczby zleceń w podziale na miesiące,
-• wykres liczby zleceń w podziale na typy.
+
+**Numer zgłoszenia** - link prowadzący do szczegółowego widoku zgłoszenia, zawierającego:<br>
+• tabelę wykonanych prac,<br>
+• listę wydanych materiałów,<br>
+• zaplanowane czynności.<br>
+**Kod obiektu** – link przechodzący do raportu z historią obiektu, zawierającego:<br>
+• tabelę wszystkich przeszłych zleceń,<br>
+• wykres liczby zleceń w podziale na miesiące,<br>
+• wykres liczby zleceń w podziale na typy.<br>
 
 <h3>Funkcjonalności raportowe</h3>
-•	Sortowanie wyników po każdej kolumnie
-•	Dynamiczne filtrowanie po siedzibach
-•	Przejrzysty układ tabelaryczny (tablix)
-•	Projekt dostosowany do wyświetlania po publikacji (SSRS web viewer)
-•	Pełna obsługa eksportu do Excel (z zachowaniem tabel i struktury danych)
-•	Raport pełnił rolę narzędzia operacyjnego do bieżącej kontroli zgłoszeń i szybkiej nawigacji po historii obiektów.
+•	Sortowanie wyników po każdej kolumnie<br>
+•	Dynamiczne filtrowanie po siedzibach<br>
+•	Przejrzysty układ tabelaryczny (tablix)<br>
+•	Projekt dostosowany do wyświetlania po publikacji (SSRS web viewer)<br>
+•	Pełna obsługa eksportu do Excel (z zachowaniem tabel i struktury danych)<br>
+•	Raport pełnił rolę narzędzia operacyjnego do bieżącej kontroli zgłoszeń i szybkiej nawigacji po historii obiektów.<br>
 
 <h3>Zdalna publikacja</h3>
 Na GitHub zostały umieszczone wyłącznie zrzuty ekranu z pełną anonimizacją danych, bez oryginalnych plików .rdl z uwagi na wrażliwe dane.
