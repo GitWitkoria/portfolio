@@ -30,6 +30,7 @@ Raport oparty jest na wcześniej przygotowanych widokach w SSMS z systemu testow
 Na GitHub zostały umieszczone wyłącznie zrzuty ekranu z pełną anonimizacją danych, bez oryginalnych plików .rdl z uwagi na wrażliwe dane.
 
 <h3>Wizualizacja raportu</h3>
+
 1. Strona główna raportu
   ![Strona główna raportu](images/AKTUAL_RST_1.jpg)
 2. Szczegóły zgłoszenia
