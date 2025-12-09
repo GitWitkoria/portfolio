@@ -1,14 +1,14 @@
-# 📊 Portfolio Power BI
+# 📊 Portfolio
 
 Cześć! 🙂
 
-Jestem w trakcie budowania mojego portfolio, w którym dzielę się swoimi projektami w **Power BI**.  
+Jestem w trakcie budowania mojego portfolio, w którym dzielę się swoimi projektami w **SSRS i Power BI**.  
 Chcę pokazać nie tylko gotowe raporty, ale także proces ich powstawania.
 
 ## 🔎 Co znajdziesz w repozytorium?
 Każdy projekt zawiera:
 - 📘 **README** z opisem, jak powstawał raport (transformacje, model, wizualizacje)  
-- 📂 **Plik `.pbix`** z raportem Power BI  
+- 📂 **Plik `.pbix`** z raportem Power BI (dotyczy raportów w Power BI) 
 
 ## 👩‍💻 O mnie
 Nazywam się **Wiktoria Piętowska** i od kilku lat pracuję w obszarze baz danych oraz rozwiązań Business Intelligence.  
