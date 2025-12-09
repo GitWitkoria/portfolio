@@ -14,10 +14,10 @@ Raport oparty jest na wcześniej przygotowanych widokach w SSMS z systemu testow
 •	Zgłaszający – multi-select + select all<br>
 •	Kod obiektu – multi-select + select all<br>
 •	Siedziba – multi-select + select all<br>
-Uwaga: Wszystkie parametry poza datami były domyślnie wypełnione wartościami wskazanymi przez klienta.
+Uwaga: Wszystkie parametry poza datami były domyślnie wypełnione wartościami wskazanymi przez klienta.<br>
 
 <h3>Rozwijane parametry raportu</h3>
-•	Parametry można rozwijać przyciskiem „+” i ukrywać przyciskiem „−”, co ułatwia kontrolę widoku raportu.
+Parametry można rozwijać przyciskiem „+” i ukrywać przyciskiem „−”, co ułatwia kontrolę widoku raportu.
 
 <h3>Wykresy i wizualizacje</h3>
 •	Liczba zgłoszeń w podziale na obiekty<br>
