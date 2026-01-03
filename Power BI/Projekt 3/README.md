@@ -8,3 +8,15 @@ Planowane zakładki w menu raportu to:
 - Mapa szans pracy - przedstawia strukturę bezrobocia wg wykształcenia, wskazuje z jakim wykształceniem mamy najniższe ryzyko bezrobocia
 - Scenariusze gospodarcze - scenariusze WHAT-IF, które będą bazować na długości czasu pozostawania bez pracy. Odpowiada na pytanie "Jak zmienia się struktura bezrobocia w zależności od sytuacji gospodarczej?"
 - Prognoza i AI Insights - predykcja i insighty
+
+<br> <br> 
+<h3>WIZUALIZACJA RAPORTU</h3>
+
+1. Strona pierwsza raportu
+   ![Strona pierwsza raportu](images/MakrotrendPolski.png)
+
+2. Strona druga raportu
+   ![Strona pierwsza raportu](images/ProfilBezrobotnych.png)
+
+2. Strona trzecia raportu
+   ![Strona pierwsza raportu](images/MapaSzans.png)
